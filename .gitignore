@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large data files - too big for GitHub
+data/raw/CSVs/twcs/
+data/raw/CSVs/sample.csv
+data/raw/CSVs/tickets.csv
+venv/
+*.pyc
+__pycache__/
+mlruns/
+logs/
