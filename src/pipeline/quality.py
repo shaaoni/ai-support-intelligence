@@ -6,9 +6,23 @@ logger = logging.getLogger(__name__)
 VALID_CATEGORIES = {"billing", "technical", "general", "urgent"}
 MIN_TEXT_LENGTH = 10
 
+TIMESTAMP_FORMATS = [
+    "%Y-%m-%dT%H:%M:%S.%f",
+    "%Y-%m-%dT%H:%M:%S",
+    "%Y-%m-%d %H:%M:%S",
+    "%a %b %d %H:%M:%S +0000 %Y",  # Twitter format
+]
+
+def _parse_timestamp(ts):
+    """Try multiple timestamp formats."""
+    for fmt in TIMESTAMP_FORMATS:
+        try:
+            return datetime.strptime(ts, fmt)
+        except ValueError:
+            continue
+    return None
 
 def check_completeness(records):
-    """Check that required fields are not empty."""
     issues = []
     for r in records:
         if not r.get("id"):
@@ -17,9 +31,7 @@ def check_completeness(records):
             issues.append({"id": r.get("id"), "issue": "missing_text"})
     return issues
 
-
 def check_consistency(records):
-    """Check categories are valid and text is long enough."""
     issues = []
     for r in records:
         if r.get("category") not in VALID_CATEGORIES:
@@ -28,26 +40,21 @@ def check_consistency(records):
             issues.append({"id": r.get("id"), "issue": f"text_too_short: {len(r.get('text', ''))} chars"})
     return issues
 
-
 def check_timeliness(records):
-    """Check that timestamps are not in the future."""
     issues = []
     now = datetime.now()
     for r in records:
         ts = r.get("timestamp", "")
         if not ts:
             continue
-        try:
-            record_time = datetime.fromisoformat(ts)
-            if record_time > now:
-                issues.append({"id": r.get("id"), "issue": f"future_timestamp: {ts}"})
-        except ValueError:
+        parsed = _parse_timestamp(ts)
+        if parsed is None:
             issues.append({"id": r.get("id"), "issue": f"invalid_timestamp_format: {ts}"})
+        elif parsed > now:
+            issues.append({"id": r.get("id"), "issue": f"future_timestamp: {ts}"})
     return issues
 
-
 def run_quality_checks(records):
-    """Run all quality checks and return a report."""
     completeness_issues = check_completeness(records)
     consistency_issues  = check_consistency(records)
     timeliness_issues   = check_timeliness(records)
@@ -55,13 +62,13 @@ def run_quality_checks(records):
     all_issues = completeness_issues + consistency_issues + timeliness_issues
     bad_ids    = {i["id"] for i in all_issues}
 
-    clean     = [r for r in records if r.get("id") not in bad_ids]
+    clean      = [r for r in records if r.get("id") not in bad_ids]
     quarantine = [r for r in records if r.get("id") in bad_ids]
 
     report = {
-        "total":              len(records),
-        "clean":              len(clean),
-        "quarantined":        len(quarantine),
+        "total":               len(records),
+        "clean":               len(clean),
+        "quarantined":         len(quarantine),
         "completeness_issues": completeness_issues,
         "consistency_issues":  consistency_issues,
         "timeliness_issues":   timeliness_issues,
