@@ -1,56 +1,56 @@
 id,text,category,timestamp,source
-TKT-1030,Security breach suspected on our account.,urgent,2026-06-12T11:15:49.730042,csv
-TKT-1015,I forgot my password and the reset email never arrived.,technical,2026-06-04T23:15:49.730042,csv
-TKT-1006,"I was charged twice this month, please refund the duplicate charge.",billing,2026-05-31T11:15:49.730042,csv
-TKT-1035,I cannot log in with my Google account.,technical,2026-06-14T23:15:49.730042,csv
-TKT-1011,"All users getting error 500, urgent fix needed.",urgent,2026-06-02T23:15:49.730042,csv
-TKT-9002,hi,billing,2026-06-27T11:15:49.730352,csv
-TKT-1047,Is there a mobile app available?,general,2026-06-20T23:15:49.730042,csv
-TKT-1002,I forgot my password and the reset email never arrived.,technical,2026-05-29T11:15:49.730042,csv
-TKT-1022,My payment failed but I was still charged.,billing,2026-06-08T11:15:49.730042,csv
-TKT-1018,I need an invoice for my last payment.,billing,2026-06-06T11:15:49.730042,csv
-TKT-1012,How do I delete my account?,general,2026-06-03T11:15:49.730042,csv
-TKT-1039,The export feature is not working for me.,technical,2026-06-16T23:15:49.730042,csv
-TKT-9001,,billing,2026-06-27T11:15:49.730350,csv
-TKT-1001,Is there a mobile app available?,general,2026-05-28T23:15:49.730042,csv
-TKT-1034,How do I delete my account?,general,2026-06-14T11:15:49.730042,csv
-TKT-1019,Do you offer a student discount?,general,2026-06-06T23:15:49.730042,csv
-TKT-1026,The app won't load on my browser.,technical,2026-06-10T11:15:49.730042,csv
-TKT-1048,I cannot log in with my Google account.,technical,2026-06-21T11:15:49.730042,csv
-,Missing ID ticket,general,2026-06-27T11:15:49.730347,csv
-TKT-1046,"We have lost all our project data, this is critical.",urgent,2026-06-20T11:15:49.730042,csv
-TKT-1013,App is very slow since the last update.,technical,2026-06-03T23:15:49.730042,csv
-TKT-1043,How do I update my credit card details?,billing,2026-06-18T23:15:49.730042,csv
-TKT-1045,"Production system is down, need immediate help.",urgent,2026-06-19T23:15:49.730042,csv
-TKT-1041,I need an invoice for my last payment.,billing,2026-06-17T23:15:49.730042,csv
-TKT-1020,How do I delete my account?,general,2026-06-07T11:15:49.730042,csv
-TKT-1042,Security breach suspected on our account.,urgent,2026-06-18T11:15:49.730042,csv
-TKT-1049,Do you offer a student discount?,general,2026-06-21T23:15:49.730042,csv
-TKT-1036,I forgot my password and the reset email never arrived.,technical,2026-06-15T11:15:49.730042,csv
-TKT-1017,My payment failed but I was still charged.,billing,2026-06-05T23:15:49.730042,csv
-TKT-1028,How do I delete my account?,general,2026-06-11T11:15:49.730042,csv
-TKT-1021,"All users getting error 500, urgent fix needed.",urgent,2026-06-07T23:15:49.730042,csv
-TKT-1044,Is there a mobile app available?,general,2026-06-19T11:15:49.730042,csv
-TKT-1000,"I was charged twice this month, please refund the duplicate charge.",billing,2026-05-28T11:15:49.730042,csv
-TKT-1016,How do I delete my account?,general,2026-06-05T11:15:49.730042,csv
-TKT-1033,Is there a mobile app available?,general,2026-06-13T23:15:49.730042,csv
-TKT-1029,The app won't load on my browser.,technical,2026-06-11T23:15:49.730042,csv
-TKT-9003,Valid text but unknown category,unknown_cat,2026-06-27T11:15:49.730354,csv
-TKT-1024,Do you offer a student discount?,general,2026-06-09T11:15:49.730042,csv
-TKT-1004,Can I switch from monthly to annual billing?,billing,2026-05-30T11:15:49.730042,csv
-TKT-1038,Do you offer a student discount?,general,2026-06-16T11:15:49.730042,csv
-TKT-9004,Future timestamp ticket,general,2026-07-07T11:15:49.730357,csv
-TKT-1010,"We have lost all our project data, this is critical.",urgent,2026-06-02T11:15:49.730042,csv
-TKT-1040,How do I update my credit card details?,billing,2026-06-17T11:15:49.730042,csv
-TKT-1009,I cannot log in with my Google account.,technical,2026-06-01T23:15:49.730042,csv
-TKT-1007,I forgot my password and the reset email never arrived.,technical,2026-05-31T23:15:49.730042,csv
-TKT-1003,Can I switch from monthly to annual billing?,billing,2026-05-29T23:15:49.730042,csv
-TKT-1005,My entire team is locked out of the system urgently.,urgent,2026-05-30T23:15:49.730042,csv
-TKT-1031,Security breach suspected on our account.,urgent,2026-06-12T23:15:49.730042,csv
-TKT-1032,The export feature is not working for me.,technical,2026-06-13T11:15:49.730042,csv
-TKT-1008,Can I switch from monthly to annual billing?,billing,2026-06-01T11:15:49.730042,csv
-TKT-1014,What are your support hours?,general,2026-06-04T11:15:49.730042,csv
-TKT-1023,Can I switch from monthly to annual billing?,billing,2026-06-08T23:15:49.730042,csv
-TKT-1025,Do you offer a student discount?,general,2026-06-09T23:15:49.730042,csv
-TKT-1037,"Production system is down, need immediate help.",urgent,2026-06-15T23:15:49.730042,csv
-TKT-1027,How do I update my credit card details?,billing,2026-06-10T23:15:49.730042,csv
+TKT-1030,Security breach suspected on our account.,urgent,2026-06-12T22:34:59.471935,csv
+TKT-1015,I forgot my password and the reset email never arrived.,technical,2026-06-05T10:34:59.471935,csv
+TKT-1006,"I was charged twice this month, please refund the duplicate charge.",billing,2026-05-31T22:34:59.471935,csv
+TKT-1035,I cannot log in with my Google account.,technical,2026-06-15T10:34:59.471935,csv
+TKT-1011,"All users getting error 500, urgent fix needed.",urgent,2026-06-03T10:34:59.471935,csv
+TKT-9002,hi,billing,2026-06-27T22:34:59.488595,csv
+TKT-1047,Is there a mobile app available?,general,2026-06-21T10:34:59.471935,csv
+TKT-1002,I forgot my password and the reset email never arrived.,technical,2026-05-29T22:34:59.471935,csv
+TKT-1022,My payment failed but I was still charged.,billing,2026-06-08T22:34:59.471935,csv
+TKT-1018,I need an invoice for my last payment.,billing,2026-06-06T22:34:59.471935,csv
+TKT-1012,How do I delete my account?,general,2026-06-03T22:34:59.471935,csv
+TKT-1039,The export feature is not working for me.,technical,2026-06-17T10:34:59.471935,csv
+TKT-9001,,billing,2026-06-27T22:34:59.488592,csv
+TKT-1001,Is there a mobile app available?,general,2026-05-29T10:34:59.471935,csv
+TKT-1034,How do I delete my account?,general,2026-06-14T22:34:59.471935,csv
+TKT-1019,Do you offer a student discount?,general,2026-06-07T10:34:59.471935,csv
+TKT-1026,The app won't load on my browser.,technical,2026-06-10T22:34:59.471935,csv
+TKT-1048,I cannot log in with my Google account.,technical,2026-06-21T22:34:59.471935,csv
+,Missing ID ticket,general,2026-06-27T22:34:59.488586,csv
+TKT-1046,"We have lost all our project data, this is critical.",urgent,2026-06-20T22:34:59.471935,csv
+TKT-1013,App is very slow since the last update.,technical,2026-06-04T10:34:59.471935,csv
+TKT-1043,How do I update my credit card details?,billing,2026-06-19T10:34:59.471935,csv
+TKT-1045,"Production system is down, need immediate help.",urgent,2026-06-20T10:34:59.471935,csv
+TKT-1041,I need an invoice for my last payment.,billing,2026-06-18T10:34:59.471935,csv
+TKT-1020,How do I delete my account?,general,2026-06-07T22:34:59.471935,csv
+TKT-1042,Security breach suspected on our account.,urgent,2026-06-18T22:34:59.471935,csv
+TKT-1049,Do you offer a student discount?,general,2026-06-22T10:34:59.471935,csv
+TKT-1036,I forgot my password and the reset email never arrived.,technical,2026-06-15T22:34:59.471935,csv
+TKT-1017,My payment failed but I was still charged.,billing,2026-06-06T10:34:59.471935,csv
+TKT-1028,How do I delete my account?,general,2026-06-11T22:34:59.471935,csv
+TKT-1021,"All users getting error 500, urgent fix needed.",urgent,2026-06-08T10:34:59.471935,csv
+TKT-1044,Is there a mobile app available?,general,2026-06-19T22:34:59.471935,csv
+TKT-1000,"I was charged twice this month, please refund the duplicate charge.",billing,2026-05-28T22:34:59.471935,csv
+TKT-1016,How do I delete my account?,general,2026-06-05T22:34:59.471935,csv
+TKT-1033,Is there a mobile app available?,general,2026-06-14T10:34:59.471935,csv
+TKT-1029,The app won't load on my browser.,technical,2026-06-12T10:34:59.471935,csv
+TKT-9003,Valid text but unknown category,unknown_cat,2026-06-27T22:34:59.488597,csv
+TKT-1024,Do you offer a student discount?,general,2026-06-09T22:34:59.471935,csv
+TKT-1004,Can I switch from monthly to annual billing?,billing,2026-05-30T22:34:59.471935,csv
+TKT-1038,Do you offer a student discount?,general,2026-06-16T22:34:59.471935,csv
+TKT-9004,Future timestamp ticket,general,2026-07-07T22:34:59.488600,csv
+TKT-1010,"We have lost all our project data, this is critical.",urgent,2026-06-02T22:34:59.471935,csv
+TKT-1040,How do I update my credit card details?,billing,2026-06-17T22:34:59.471935,csv
+TKT-1009,I cannot log in with my Google account.,technical,2026-06-02T10:34:59.471935,csv
+TKT-1007,I forgot my password and the reset email never arrived.,technical,2026-06-01T10:34:59.471935,csv
+TKT-1003,Can I switch from monthly to annual billing?,billing,2026-05-30T10:34:59.471935,csv
+TKT-1005,My entire team is locked out of the system urgently.,urgent,2026-05-31T10:34:59.471935,csv
+TKT-1031,Security breach suspected on our account.,urgent,2026-06-13T10:34:59.471935,csv
+TKT-1032,The export feature is not working for me.,technical,2026-06-13T22:34:59.471935,csv
+TKT-1008,Can I switch from monthly to annual billing?,billing,2026-06-01T22:34:59.471935,csv
+TKT-1014,What are your support hours?,general,2026-06-04T22:34:59.471935,csv
+TKT-1023,Can I switch from monthly to annual billing?,billing,2026-06-09T10:34:59.471935,csv
+TKT-1025,Do you offer a student discount?,general,2026-06-10T10:34:59.471935,csv
+TKT-1037,"Production system is down, need immediate help.",urgent,2026-06-16T10:34:59.471935,csv
+TKT-1027,How do I update my credit card details?,billing,2026-06-11T10:34:59.471935,csv
