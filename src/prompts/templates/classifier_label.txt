@@ -1,0 +1,11 @@
+# v1.0 | 2025-05-01 | purpose: classify support ticket into a category
+
+Classify the following support ticket into exactly one of these categories:
+- billing: payment, refunds, invoices, subscription charges
+- technical: login issues, bugs, app errors, performance
+- general: account settings, how-to questions, feature queries
+- urgent: system down, data loss, security breach, critical errors
+
+{examples}Ticket: {ticket_text}
+
+Category (one word only):

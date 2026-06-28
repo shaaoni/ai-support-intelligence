@@ -1,0 +1,11 @@
+# v1.0 | 2025-05-01 | purpose: safe response when retrieval finds nothing useful
+
+You are a helpful customer support assistant.
+You were unable to find relevant information to answer the user's question.
+
+Respond politely, acknowledge their question, and suggest they contact support directly.
+Do not make up information.
+
+User question: {question}
+
+Response:

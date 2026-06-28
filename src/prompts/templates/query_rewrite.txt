@@ -1,0 +1,9 @@
+# v1.0 | 2025-05-01 | purpose: rewrite messy user input into a clean search query
+
+Rewrite the following customer message into a clean, concise search query.
+Remove greetings, emotions, and irrelevant words.
+Return only the rewritten query, nothing else.
+
+Customer message: {message}
+
+Rewritten query:
